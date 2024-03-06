@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="headerItem">
+            <a href=""><img src="image/logo-vrs-top.svg"/></a>
+        </div>
+
+        <div class="headerItem">
+            <div class="location">
+                <img src="image/header-map-icon.svg" alt="map-icon"/>
+                <a class="city" href="">Самара</a>
+            </div>
+            <div style="position: relative">
+                <input class="searchField" placeholder="Поиск по сайту"/>
+                <img class="searchIcon" src="image/header-search-icon.svg"/>
+            </div>
+        </div>
+
+        <div class="headerItem">
+            <div>
+                <button class="callBack">Обратный звонок</button>
+            </div>
+            <div class="blockAskQuestion">
+                <img src="image/header-question-icon.svg" alt="icon-question"/>
+                <a class="askQuestion" href="">Задать вопрос</a>
+            </div>
+        </div>
+
+        <div>
+            <div class="infoOfCall">Звонок по России бесплатный</div>
+            <div><a class="callTheNumber" href="tel:88007700063">8-800-77-000-63</a></div>
+            <div><a class="sendToMail" href="mailto:hello@pnevmo-sklad.ru">hello@pnevmo-sklad.ru</a></div>
+        </div>
+
+        <div class="headerItem basketAndFavourites">
+            <div class="itemCartAndFavourites">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" xml:space="preserve"><path fill="#000000" d="M13.05.318A5.407 5.407 0 0 0 9 2.182 5.416 5.416 0 0 0 4.95.318C2.178.318 0 2.477 0 5.223c0 3.372 3.06 6.117 7.695 10.292L9 16.682l1.306-1.168C14.94 11.34 18 8.595 18 5.223 18 2.477 15.822.318 13.05.318zM9.09 14.187l-.09.086-.09-.087C4.626 10.341 1.8 7.8 1.8 5.223c0-1.784 1.351-3.121 3.15-3.121 1.386 0 2.736.883 3.213 2.104h1.674c.476-1.222 1.826-2.104 3.212-2.104 1.801 0 3.15 1.337 3.15 3.121.001 2.577-2.825 5.118-7.109 8.964z"></path></svg>
+                <div class="nameItemCartAndFavourites">Избранное</div>
+            </div>
+            <div class="itemCartAndFavourites">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="21" height="20"><path fill="#000000" d="M15.221 11c.741 0 1.395-.41 1.73-1.03l3.539-6.49c.366-.661-.109-1.48-.86-1.48H4.997l-.93-2H.834v2h1.978l3.56 7.59-1.335 2.439C4.314 13.369 5.264 15 6.767 15h11.865v-2H6.767l1.088-2h7.366zM5.936 4H17.95l-2.729 5H8.279L5.936 4zm.831 12c-1.088 0-1.968.9-1.968 2s.88 2 1.968 2 1.978-.9 1.978-2-.891-2-1.978-2zm9.887 0c-1.088 0-1.968.9-1.968 2s.88 2 1.968 2c1.087 0 1.978-.9 1.978-2s-.891-2-1.978-2z"></path></svg>
+                <div class="nameItemCartAndFavourites">Корзина</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="navigationContainer">
+        <div class="navigationBlock">
+            <div class="itemNav itemNavActive dropdownToggle">КАТАЛОГ</div>
+            <div class="itemNav dropdownToggle">СЕРВИС И РЕМОНТ</div>
+            <div class="itemNav">ДОСТАВКА И ОПЛАТА</div>
+            <div class="itemNav dropdownToggle">О КОМПАНИИ</div>
+            <div class="itemNav">НАШИ РАБОТЫ</div>
+            <div class="itemNav">БЛОГ</div>
+            <div class="itemNav">КОНТАКТЫ</div>
+            <div class="comparison">нет товаров к сравнению</div>
+        </div>
+    </div>
+    <div class="containerMain">
+        <div class="leftMenu">
+            <div class="leftMenuItem leftMenuItemActive">
+                <div class="iconLeftMenu"><img src="image/left-menu-oborudovanie-icon-b.svg"/></div>
+                <div class="nameItemLeftMenu nameItemLeftMenuActive">ОБОРУДОВАНИЕ</div>
+                <div class="openAndCloseDropdownActive"></div>
+            </div>
+            <div class="leftMenuItem">
+                <div class="iconLeftMenu"><img src="image/left-menu-zapchasti-vint-icon-a.svg"/></div>
+                <div class="nameItemLeftMenu">ЗАПЧАСТИ<br/> ДЛЯ ВИНТОВЫХ КОМПРЕССОРОВ</div>
+                <div class="openAndCloseDropdown"></div>
+            </div>
+            <div class="leftMenuItem">
+                <div class="iconLeftMenu"><img src="image/left-menu-zapchasti-porsh-icon-a.svg"/></div>
+                <div class="nameItemLeftMenu">ЗАПЧАСТИ<br/> ДЛЯ ПОРШНЕВЫХ КОМПРЕССОРОВ</div>
+                <div class="openAndCloseDropdown"></div>
+            </div>
+            <div class="leftMenuItem">
+                <div class="iconLeftMenu"><img src="image/left-menu-maslo-icon-a.svg"/></div>
+                <div class="nameItemLeftMenu">КОМПРЕССОРНОЕ МАСЛО</div>
+                <div class="openAndCloseDropdown"></div>
+            </div>
+            <div class="leftMenuItem">
+                <div class="iconLeftMenu"><img src="image/left-menu-servis-icon-a.svg"/></div>
+                <div class="nameItemLeftMenu">СЕРВИС И РЕМОНТ</div>
+                <div class="openAndCloseDropdown"></div>
+            </div>
+            <div class="leftMenuItem">
+                <div class="iconLeftMenu"><img src="image/left-menu-arenda-icon-a.svg"/></div>
+                <div class="nameItemLeftMenu">АРЕНДА<br/> КОМПРЕССОРА</div>
+            </div>
+            <div class="leftMenuItem">
+                <div class="iconLeftMenu"><img src="image/left-menu-sale-icon-a.svg"/></div>
+                <div class="nameItemLeftMenu">РАСПРОДАЖА</div>
+            </div>
+
+            <div class="printVersion">
+                <img alt="Print" src="image/goods-print-version-icon.svg"/>
+                <div class="printVersionText">Версия для печати</div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="crumbs">
+                <a class="itemCrumbs" href="">Главная</a>
+                &nbsp;•&nbsp;
+                <a class="itemCrumbs" href="">Оборудование</a>
+                &nbsp;•&nbsp;
+                <a class="itemCrumbs" href="">Винтовые компрессоры</a>
+                &nbsp;•&nbsp;
+                <span class="itemCrumbsNameProduct">Безмасляный винтовой компрессор Vortex VOFS 1.5/8</span>
+            </div>
+            <div class="nameProduct">БЕЗМАСЛЯНЫЙ ВИНТОВОЙ КОМПРЕССОР VORTEX VOFS 1.5/8</div>
+
+            <div class="goodBlock">
+                <div class="framePhoto">
+                    <div class="producerImg"><img src="image/90.png"></div>
+                    <div class="stickerNew"><img src="image/sticker-new-big.png"/></div>
+                    <a class="lens" href=""><img src="image/lens.png"/></a>
+                    <a href=""><img class="photoProduct" src="image/vortex-vofs-paneli.jpg" alt="photo"/></a>
+
+                    <div class="switchImgCont">
+                        <div class="switchImg active" id="switch_img_0">
+                            <img src="image/vofs.jpg"
+                                 class="switchImgItem"
+                                 alt="Безмасляный винтовой компрессор Vortex VOFS 1.5/8"
+                                 title="Безмасляный винтовой компрессор Vortex VOFS 1.5/8">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="goodInfoCont">
+
+                    <div class="goodInfoTitle">Характеристики</div>
+
+                    <table class="goodParam">
+                        <tr>
+                            <td class="paramName">Бренд:</td>
+                            <td class="paramValue" itemprop="brand" itemtype="https://schema.org/Brand" itemscope="">
+                                Vortex
+                                <meta itemprop="name" content="Vortex">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">Артикул:</td>
+                            <td class="paramValue">VOFS 1.5/8</td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">Производительность:</td>
+                            <td class="paramValue">170 л/мин</td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">Давление:</td>
+                            <td class="paramValue"><a href="shop/oborudovanie/vintovye_kompressory/pressure-8">8
+                                Бар</a></td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">Мощность:</td>
+                            <td class="paramValue">1.5 кВт</td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">Страна производства:</td>
+                            <td class="paramValue">Турция</td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">Тип привода:</td>
+                            <td class="paramValue"><a
+                                    href="shop/oborudovanie/vintovye_kompressory/belt-drive">Ременной</a></td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">На ресивере:</td>
+                            <td class="paramValue"><a href="shop/oborudovanie/vintovye_kompressory/without-receiver">Без
+                                ресивера</a></td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">Безмасляный:</td>
+                            <td class="paramValue"><a
+                                    href="shop/oborudovanie/vintovye_kompressory/oil-free">Безмасляный</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">С частотником:</td>
+                            <td class="paramValue">нет</td>
+                        </tr>
+                        <tr>
+                            <td class="paramName">С осушителем:</td>
+                            <td class="paramValue">нет</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+            <div class="goodBuy">
+                <div class="goodBuyLeft">
+                    <span class="price">709 276 <span>₽</span></span>
+                    <div class="goodAvailable"><span>В наличии</span></div>
+                </div>
+                <div class="goodBuyRight">
+                    <a class="fastDeliveryButton" href="">Купить в 1 клик</a>
+                    <span><button class="productPageBuyBtn">купить</button></span>
+                </div>
+            </div>
+
+            <div class="goodsFunctions">
+                <div class="goodsToFavorites">В избранное</div>
+                <div class="goodsToCompareButton">Сравнить</div>
+                <div class="goodsToShare">Поделиться</div>
+                <div class="goodsFreeDeliveryBtn">Бесплатная<br/> доставка по России</div>
+            </div>
+
+            <div class="aboutGood">
+                <p class="aboutGoodHeader">О товаре</p>
+
+                <div class="aboutGoodsCont">
+                    <div class="starsCont" title="0">
+                        <span class="stars" style="width: 0.000%"></span>
+                    </div>
+                    <button class="rqControl">Отзывы (0)</button>
+                    <button class="rqControl">Вопросы (0)</button>
+                </div>
+            </div>
+
+
+            <div class="productDescription" itemprop="description">
+                <div class="productDescriptionIntro"><p><strong> Компактная воздушная станция Vortex VOFS
+                    1.5/8 </strong>– оснащенная безмасляным винтовым
+                    компрессором, представляет собой идеальное решение для промышленного пневмоснабжения в сложных
+                    условиях. Произведенная на передовом турецком заводе Ankara Hamak с применением инновационных
+                    методов и качественных комплектующих из Европы, эта станция обладает высокой эффективностью и
+                    надежностью. В ее основе лежит сочетание передового винтового блока и классического трехфазного
+                    двигателя с ременной передачей. Среди основных преимуществ стоит выделить оптимальное соотношение
+                    цены и качества, простоту обслуживания и экономичность в эксплуатации, а также долгий срок службы
+                    механизмов.</p>
+                    <p>Базовая версия VOFS с улучшенной шумо- и виброизоляцией. Агрегат компактен и не требует
+                        фундаментной подготовки, готов к работе сразу после подключения к пневмолинии. Прочная стальная
+                        рама обеспечивает надежность размещения узлов и безопасность транспортировки оборудования. За
+                        счет короткого цикла вращения спиральных элементов воздух на выходе из компрессора всего на 10 –
+                        15°C теплее окружающей среды.
+                    </p>
+
+                    <h2>Преимущества и технические характеристики компрессоров Vortex VOFS:</h2>
+                    <div class="col-12">
+                        <div class="pp-img-set">
+                            <div class="pp-img"><img src="image/vortex-vofs-paneli.jpg" alt=""></div>
+                            <div class="pp-txt">
+                                <p>Компактная конструкция с прочным корпусом, качественной шумо- и виброизоляцией.
+                                    Компрессор спроектирован для эксплуатации в непосредственной близости от рабочих
+                                    мест персонала. Не создает избыточных акустических нагрузок, может устанавливаться
+                                    на любой ровной поверхности без специального фундамента;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="pp-img-set">
+                            <div class="pp-img"><img src="image/vortex-mc-remen.jpg" alt=""></div>
+                            <div class="pp-txt">
+                                <p>В качестве приводного механизма реализована классическая клиноременная передача.
+                                    Шкивы силового агрегата и модуля сжатия соединены ремнем из качественного
+                                    износостойкого материала. Привод рассчитан на длительные нагрузки, оснащен системой
+                                    быстрого натяжения. Интервал обслуживания – 8 тыс. моточасов;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="pp-img-set">
+                            <div class="pp-img"><img src="image/vortex-mc-dvig.jpg" alt=""></div>
+                            <div class="pp-txt">
+                                <p>Двигатель компрессорной станции Vortex VOFS имеет постоянную частоту вращения,
+                                    оснащен нагревостойкой изоляцией класса F. Корпус электромотора отлично отводит
+                                    избыточное тепло, защищен от влаги и пыли (IP54). Для долговечной работы при
+                                    постоянных нагрузках используются усиленные промышленные подшипники;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="pp-img-set">
+                            <div class="pp-img"><img src="image/vortex-mc-blok.jpg" alt=""></div>
+                            <div class="pp-txt">
+                                <p>Блок обеспечивает эффективную и 100% безмасляную компрессию с минимальным нагревом
+                                    сжатого воздуха. Основным рабочим механизмом выступает износоустойчивый планетарный
+                                    элемент с 2-мя спиралями и сверхкоротким циклом сжатия. Отсутствие в системе масла
+                                    увеличивает интервал обслуживания;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="pp-img-set">
+                            <div class="pp-img"><img src="image/vortex-mc-kontroll.jpg" alt=""></div>
+                            <div class="pp-txt">
+                                <p>Мультифункциональный контроллер предоставляет полный комплекс эксплуатационной
+                                    информации: от давления и температуры блока до сервисных сигналов. Расширенные
+                                    функции программирования открывают максимум возможностей для индивидуальных настроек
+                                    энергетически эффективного производства;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="pp-img-set">
+                            <div class="pp-img"><img src="image/vortex-mc-elektron.jpg" alt=""></div>
+                            <div class="pp-txt">
+                                <p>Высокое качество и долговечность электрокомпонентов. В воздушных станциях Вортекс
+                                    устанавливаются современные узлы электрики, гарантирующие повышенную
+                                    эксплуатационную безопасность. Для быстрого доступа к предохранителям и тепловым
+                                    реле предусмотрен отдельный влагозащищенный короб с дверцей.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Гарантия и сервис:</h2>
+                <p></p>Простота и экономичность регламентного обслуживания. В воздушных станциях серии VOFS отсутствует
+                система подачи масла, что увеличивает сервисный интервал и снижает обязательные расходы на ТО. Плановые
+                работы включают замену воздушного фильтра и приводного ремня, проводятся 1 раз в 6000 – 8000 часов.
+                <p></p>
+
+                <p>
+
+                    Гарантия на спиральные компрессоры Vortex VOFS – 12 мес.
+
+                </p>
+
+                <p>Производственная компания Ankara Hamak – одно из крупнейших турецких предприятий по выпуску
+                    энергосберегающей компрессорной техники. С 1998 года на мощностях завода изготавливается продукция
+                    под брендом Vortex. Компрессорные агрегаты Вортекс закрывают полный спектр потребностей в сжатом
+                    воздухе для промышленного сегмента. Собираются из отборных европейских комплектующих в соответствии
+                    с актуальными принципами энергетической эффективности. Высокое качество оборудования Вортекс уже
+                    оценили потребители из более 48 стран мира, в т. ч. из России.
+                </p>
+                <p>
+
+                    В каталоге на нашем сайте вы можете купить спиральный компрессор Vortex VOFS по выгодной дилерской
+                    цене и с расширенным комплексом авторизованного обслуживания. Являясь официальным партнером
+                    турецкого бренда Вортекс, мы предлагаем эксклюзивные условия для заказа систем пневмопроизводства и
+                    профессиональной воздушной подготовки. Также в наличии полный спектр оригинальных товаров для
+                    выполнения регламентного ТО.
+
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

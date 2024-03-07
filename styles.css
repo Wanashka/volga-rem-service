@@ -153,12 +153,10 @@ body {
     font-size: 13px;
     font-weight: 700;
     color: white;
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-
     height: 100%;
 }
 
@@ -258,7 +256,6 @@ body {
 }
 
 .content {
-    /*border: red solid 1px;*/
     width: 100%;
     margin-left: 30px;
     margin-right: 10px;
@@ -350,7 +347,6 @@ body {
 
 .goodInfoCont {
     width: 40%;
-    /*border: red solid 1px;*/
     height: 405px;
 }
 
@@ -381,7 +377,6 @@ body {
 }
 
 .goodBuy {
-    /*border: red solid 1px;*/
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -395,7 +390,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /*border: red solid 1px;*/
     width: 100%;
 }
 
@@ -498,7 +492,6 @@ body {
     height: 16px;
     background-position: 0 -16px;
     background-repeat: repeat-x;
-
     margin-top: 10px;
     position: relative;
     z-index: 1;
